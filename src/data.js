@@ -9,27 +9,27 @@ const algorithms = [
             {
               id:1,
               framework:"Base",
-              src:"./assets/images/fft/FFT_Base.png"
+              src:"./assets/images/sgemm/SGEMM_Base_Small.png"
             },
             {
                 id:2,
                 framework:"OpenMP",
-                src:"./assets/images/fft/FFT_OpenMp.png"
+                src:"./assets/images/sgemm/SGEMM_OpenMP_Small.png"
             },
             {
                 id:3,
                 framework:"OpenCL",
-                src:""
+                src:"./assets/images/sgemm/SGEMM_OpenCL_128x160.png"
             },
             {
                 id:4,
                 framework:"CUDA",
-                src:"./assets/images/fft/FFT_Cuda.png"
+                src:"./assets/images/sgemm/SGEMM_CUDA_Small.png"
             },
             {
                 id:5,
-                framework:"CUDA",
-                src:"./assets/images/fft/FFT_openACC.png"
+                framework:"OpenACC",
+                src:"./assets/images/sgemm/SGEMM_OpenACC_Small.png"
             }
         ]
     },

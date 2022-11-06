@@ -19,12 +19,14 @@ function Algo() {
                 <div className="acc-list">
                 <Accordion flush>
                 {algorithm.executions.map(execution=>{
-                  return(                   
+                  if(execution.src!==""){
+                    return(                   
                       <Accordion.Item eventKey={execution.id}>
                         <Accordion.Header>{execution.framework}</Accordion.Header>
                         <Accordion.Body><img src={execution.src} alt={execution.framework}></img></Accordion.Body>
                       </Accordion.Item>                   
-                  )
+                    )
+                  }
                 })}
                  </Accordion>
                 </div>
