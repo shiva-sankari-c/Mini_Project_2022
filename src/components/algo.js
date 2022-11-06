@@ -27,6 +27,11 @@ function Algo() {
                       </Accordion.Item>                   
                     )
                   }
+                  else{
+                    return(
+                      <span></span>
+                    )
+                  }
                 })}
                  </Accordion>
                 </div>
