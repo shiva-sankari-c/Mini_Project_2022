@@ -1,0 +1,165 @@
+.Header{
+    background-color: #379237;
+    min-height: 10vh;
+    padding: 0!important;
+   
+}
+
+.navbar-brand{
+    color: #EAEAEA !important;
+    font-weight: bold;
+}
+
+.navbar-brand svg{
+    margin-right: 3%;
+}
+
+.Home{
+    width: 100%;
+    height: 90vh;
+}
+.Home{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Home>*{
+    width: 50%;
+    padding: 5%;
+    font-size: 1.5rem;
+}
+
+.Home h2{
+    color: #379237;
+}
+
+.Home .button{
+    background-color:#379237 ;
+}
+
+.Home .button:hover{
+    background-color: #54B435;
+}
+
+.btn-primary{
+    --bs-btn-active-bg: #54B435 !important;
+    --bs-btn-border-color:#379237, !important;;
+}
+
+.Algo{
+    padding: 0 5%;
+}
+
+.Algo .algorithm{
+    display: flex;
+    align-items: center;
+    margin:5% 0;
+}
+
+.Algo .algorithm>*{
+    width: 50%;
+}
+
+.Algo .algorithm .desc{
+    padding-right: 4%;
+}
+
+.Algo .algorithm img{
+    width: 100%;
+}
+
+.Algo h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.Algo h1,.Algo h2{
+    color: #379237;
+}
+
+.accordion-button:not(.collapsed){
+    color: #000 !important;
+    background-color: #fff !important;
+    box-shadow: 0 0 0 #fff !important;
+}
+
+.accordion-button:focus{
+    border-color: #fff !important;
+    outline: 0 !important;
+    box-shadow: 0 0 0 #fff !important;
+}
+
+.Graph{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    
+}
+
+.Graph h1{
+    color: #379237;
+    padding: 5%;
+    text-transform: uppercase;
+}
+
+.linechart{
+    padding: 0 10%;
+}
+
+
+.Footer{
+    background-color: #379237;
+    color: #EAEAEA;
+    margin-top: 5%;
+    padding-top: 2%;
+}
+
+.Footer .details{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Footer p{
+    margin: 0;
+    margin-top: 3%;
+    text-align: center;
+}
+
+@media screen and (max-width:768px){
+    .Home{
+        flex-direction: column;
+    } 
+
+    .navbar-brand{
+       text-align: center;
+       white-space: break-spaces !important;
+       font-weight: 500;
+    }
+
+    .Home>*{
+        width: 100%;
+        padding: 4%;
+    }
+
+    .Algo .algorithm{
+        flex-direction: column;
+    }
+    
+    .Algo .algorithm>*{
+        width: 100%;
+    }
+
+    .Footer .details{
+       flex-direction: column;
+       align-items: center;
+    }
+
+    .Footer .details>*{
+        margin: 4% 0;
+    }
+
+
+}
